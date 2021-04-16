@@ -34,7 +34,8 @@ createCanvas(500,400)
       
 
 function draw(){
-
+camera.position.x=monkey.x+150
+camera.position.y=monkey.y -100
    backgr.velocityX=-8
   if(backgr.x<0){
     backgr.x =backgr.width/2
